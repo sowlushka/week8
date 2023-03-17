@@ -1,0 +1,10 @@
+@import url("bootstrap@5.1.3.min.css");
+
+/**/
+.nav .nav-link {
+    color: var(--bs-gray-200);
+}
+
+.nav .disabled {
+    color: var(--bs-gray-500);
+}
