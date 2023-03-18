@@ -7,3 +7,12 @@
 .nav .disabled {
     color: var(--bs-gray-500);
 }
+
+.rounded-top {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.bg-color {
+    background-color: var(--bs-gray-300);
+}
