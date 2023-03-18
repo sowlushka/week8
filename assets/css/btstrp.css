@@ -21,3 +21,16 @@
 .bg-color {
     background-color: var(--bs-gray-300);
 }
+
+.bg-color-light {
+    background-color: var(--bs-gray-200);
+}
+
+.card-body a {
+    display: inline-block !important;
+    margin: auto !important;
+    text-align: center !important;
+    justify-self: center !important;
+    justify-content: center !important;
+
+}
