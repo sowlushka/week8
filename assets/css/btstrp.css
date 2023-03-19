@@ -17,20 +17,24 @@
     border-top-right-radius: 10px;
 }
 
+.border-round-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 
 .bg-color {
     background-color: var(--bs-gray-300);
 }
 
-.bg-color-light {
-    background-color: var(--bs-gray-200);
+footer {
+    color: var(--bs-gray-200);
+    font-size: 2rem;
 }
 
-.card-body a {
-    display: inline-block !important;
-    margin: auto !important;
-    text-align: center !important;
-    justify-self: center !important;
-    justify-content: center !important;
 
+footer::first-letter {
+    color: rosybrown;
+    /*font-size: 2.5rem;
+    font-weight: 900;*/
 }
